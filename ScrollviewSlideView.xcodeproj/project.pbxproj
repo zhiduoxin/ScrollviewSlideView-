@@ -15,6 +15,7 @@
 		E9FA6E841E665EAC00551184 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = E9FA6E821E665EAC00551184 /* LaunchScreen.storyboard */; };
 		E9FA6E8F1E665EAD00551184 /* ScrollviewSlideViewTests.m in Sources */ = {isa = PBXBuildFile; fileRef = E9FA6E8E1E665EAD00551184 /* ScrollviewSlideViewTests.m */; };
 		E9FA6E9A1E665EAD00551184 /* ScrollviewSlideViewUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = E9FA6E991E665EAD00551184 /* ScrollviewSlideViewUITests.m */; };
+		E9FA6EAA1E665F2100551184 /* SlideSelectView.m in Sources */ = {isa = PBXBuildFile; fileRef = E9FA6EA91E665F2100551184 /* SlideSelectView.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -51,6 +52,8 @@
 		E9FA6E951E665EAD00551184 /* ScrollviewSlideViewUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ScrollviewSlideViewUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		E9FA6E991E665EAD00551184 /* ScrollviewSlideViewUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ScrollviewSlideViewUITests.m; sourceTree = "<group>"; };
 		E9FA6E9B1E665EAD00551184 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		E9FA6EA81E665F2100551184 /* SlideSelectView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SlideSelectView.h; sourceTree = "<group>"; };
+		E9FA6EA91E665F2100551184 /* SlideSelectView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SlideSelectView.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -81,6 +84,7 @@
 		E9FA6E681E665EAC00551184 = {
 			isa = PBXGroup;
 			children = (
+				E9FA6EA71E665ECF00551184 /* Class */,
 				E9FA6E731E665EAC00551184 /* ScrollviewSlideView */,
 				E9FA6E8D1E665EAC00551184 /* ScrollviewSlideViewTests */,
 				E9FA6E981E665EAD00551184 /* ScrollviewSlideViewUITests */,
@@ -138,6 +142,16 @@
 				E9FA6E9B1E665EAD00551184 /* Info.plist */,
 			);
 			path = ScrollviewSlideViewUITests;
+			sourceTree = "<group>";
+		};
+		E9FA6EA71E665ECF00551184 /* Class */ = {
+			isa = PBXGroup;
+			children = (
+				E9FA6EA81E665F2100551184 /* SlideSelectView.h */,
+				E9FA6EA91E665F2100551184 /* SlideSelectView.m */,
+			);
+			name = Class;
+			path = ScrollviewSlideView/Class;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -273,6 +287,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				E9FA6EAA1E665F2100551184 /* SlideSelectView.m in Sources */,
 				E9FA6E7C1E665EAC00551184 /* ViewController.m in Sources */,
 				E9FA6E791E665EAC00551184 /* AppDelegate.m in Sources */,
 				E9FA6E761E665EAC00551184 /* main.m in Sources */,
